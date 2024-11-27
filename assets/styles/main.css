@@ -8,10 +8,13 @@ body {
 }
 :root {
   --black: black;
+  --white: white;
   --shy-moment: #a7a3ff;
   --blue-of-purple: #4d47c3;
   --Palladium: #b0b0b0;
   --Foundation-White: #f0efff;
+  --Palladium: #b0b0b0;
+  --Brainstem-Grey: #b5b5b5;
 }
 .container {
   padding: 0 15px;
@@ -32,12 +35,6 @@ body {
     width: 1170px;
   }
 }
-img {
-  width: 100%;
-}
-ul {
-  list-style: none;
-}
 a {
   text-decoration: none;
   text-transform: capitalize;
@@ -49,4 +46,88 @@ header a {
   font-size: 20px;
   font-weight: 600;
   color: var(--black);
+}
+section .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  min-height: 90vh;
+}
+.container .sign_in h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 75px;
+}
+.container .sign_in h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52.5px;
+}
+.container .sign_in span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .sign_in span a {
+  font-weight: 600;
+  color: var(--blue-of-purple);
+}
+section .container .login h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.login form input {
+  display: block;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: var(--Foundation-White);
+  border-radius: 8px;
+  min-width: 300px;
+  margin: 25px 0;
+}
+.login form input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--shy-moment);
+}
+.login form a {
+  display: flex;
+  justify-content: end;
+  color: var(--Palladium);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.login form .submit {
+  background-color: var(--blue-of-purple);
+  color: var(--white);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.login form p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--Brainstem-Grey);
+  padding: 20px;
+}
+.login form .social {
+  display: flex;
+  justify-content: center;
+}
+.login form .social a img {
+  width: 40px;
+  margin: 20px 10px;
+}
+@media (max-width: 500px) {
+  section .container {
+    justify-content: center;
+  }
 }
