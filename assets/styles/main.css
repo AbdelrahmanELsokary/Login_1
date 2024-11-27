@@ -120,6 +120,9 @@ section .container .login h2 {
   color: var(--Brainstem-Grey);
   padding: 20px;
 }
+.login form .submit {
+  box-shadow: 5px 4px 61px 10px #4d47c366;
+}
 .login form .social {
   display: flex;
   justify-content: center;
