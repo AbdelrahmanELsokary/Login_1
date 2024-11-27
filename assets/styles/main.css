@@ -1,43 +1,52 @@
-* {                                                                                                        
-  padding: 0;                                                                                                        
-  margin: 0;                                                                                                        
-  box-sizing: border-box;                                                                                                        
-}                                                                                                        
-body {                                                                                                        
-  font-family: "Poppins", sans-serif;                                                                                                        
-}                             
-:root{
-  --black:black;
-  --shy-moment:#A7A3FF;
-  --blue-of-purple:#4D47C3;
-  --Palladium:#B0B0B0;
-  --Foundation-White:#F0EFFF;
-}                                                                           
-.container {                                                                                                        
-  padding: 0 15px;                                                                                                        
-  margin: auto;                                                                                                        
-}                                                                                                        
-@media (min-width: 768px) {                                                                                                        
-  .container {                                                                                                        
-    width: 750px;                                                                                                        
-  }                                                                                                        
-}                                                                                                        
-@media (min-width: 992px) {                                                                                                        
-  .container {                                                                                                        
-    width: 970px;                                                                                                        
-  }                                                                                                        
-}                                                                                                        
-@media (min-width: 1200px) {                                                                                                        
-  .container {                                                                                                        
-    width: 1170px;                                                                                                        
-  }                                                                                                        
-}                                                                                                        
-img {                                                                                                        
-  width: 100%;                                                                                                        
-}                                                                                                        
-ul {                                                                                                        
-  list-style: none;                                                                                                        
-}                                                                                                        
-a {                                                                                                        
-  text-decoration: none;                                                                                                        
-}                                                                                                        
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --black: black;
+  --shy-moment: #a7a3ff;
+  --blue-of-purple: #4d47c3;
+  --Palladium: #b0b0b0;
+  --Foundation-White: #f0efff;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+header {
+  padding: 20px;
+}
+header a {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+}
