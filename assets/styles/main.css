@@ -132,3 +132,13 @@ section .container .login h2 {
     justify-content: center;
   }
 }
+.hide {
+  position: relative;
+}
+.hide img {
+  position: absolute;
+  width: 23px;
+  top: 13px;
+  right: 15px;
+  cursor: pointer;
+}
