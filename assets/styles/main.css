@@ -5,7 +5,14 @@
 }                                                                                                        
 body {                                                                                                        
   font-family: "Poppins", sans-serif;                                                                                                        
-}                                                                                                        
+}                             
+:root{
+  --black:black;
+  --shy-moment:#A7A3FF;
+  --blue-of-purple:#4D47C3;
+  --Palladium:#B0B0B0;
+  --Foundation-White:#F0EFFF;
+}                                                                           
 .container {                                                                                                        
   padding: 0 15px;                                                                                                        
   margin: auto;                                                                                                        
