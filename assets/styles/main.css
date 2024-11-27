@@ -40,7 +40,7 @@ a {
   text-transform: capitalize;
 }
 header {
-  padding: 20px;
+  padding: 30px 0 0 30px;
 }
 header a {
   font-size: 20px;
@@ -53,7 +53,8 @@ section .container {
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
-  min-height: 90vh;
+  padding-top: 100px;
+  min-height: calc(100vh-300px);
 }
 .container .sign_in h1 {
   font-size: 50px;
